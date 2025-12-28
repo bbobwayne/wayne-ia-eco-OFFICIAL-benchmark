@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-12-27T20:18:05.709134",
+  "benchmark": "PutnamBench Full",
+  "code_key_anchor": "[220] UNIVERSAL_LANGUAGE",
+  "master_cipher": "V1:24S104S23S99S32S211P212P213S214R:UNILANG",
+  "languages": {
+    "lean4": {
+      "total": 200,
+      "solved": 9,
+      "rate": 4.5,
+      "avg_score": 4.95
+    },
+    "isabelle": {
+      "total": 200,
+      "solved": 13,
+      "rate": 6.5,
+      "avg_score": 4.71
+    },
+    "coq": {
+      "total": 200,
+      "solved": 8,
+      "rate": 4.0,
+      "avg_score": 4.74
+    }
+  },
+  "overall": {
+    "total_problems": 600,
+    "total_solved": 30,
+    "success_rate": 5.0,
+    "agents_deployed": 7,
+    "code_keys_bound": 22
+  },
+  "category_scores": {
+    "algebra": {
+      "total": 190,
+      "solved": 8,
+      "rate": 4.21,
+      "avg_score": 5.48
+    },
+    "geometry": {
+      "total": 55,
+      "solved": 3,
+      "rate": 5.45,
+      "avg_score": 3.99
+    },
+    "analysis": {
+      "total": 186,
+      "solved": 12,
+      "rate": 6.45,
+      "avg_score": 4.47
+    },
+    "number_theory": {
+      "total": 67,
+      "solved": 6,
+      "rate": 8.96,
+      "avg_score": 5.4
+    },
+    "linear_algebra": {
+      "total": 41,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 3.64
+    },
+    "abstract_algebra": {
+      "total": 27,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 4.68
+    },
+    "probability": {
+      "total": 10,
+      "solved": 1,
+      "rate": 10.0,
+      "avg_score": 3.8
+    },
+    "combinatorics": {
+      "total": 20,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 4.86
+    },
+    "set_theory": {
+      "total": 4,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 3.69
+    }
+  },
+  "improvements": {
+    "vs_baseline": 3025.0,
+    "vs_gpt4o": "+3025.0%",
+    "vs_previous": 1.67
+  }
+}
