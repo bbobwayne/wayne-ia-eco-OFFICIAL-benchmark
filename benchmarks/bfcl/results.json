@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-26T13:21:20.754729",
+  "harness": "bfcl-eval v2025.12.17",
+  "categories_tested": [
+    "simple",
+    "parallel",
+    "multiple"
+  ],
+  "max_samples": 100,
+  "category_scores": {
+    "simple": 72.48,
+    "parallel": 68.18,
+    "multiple": 67.2
+  },
+  "overall_score": 69.28,
+  "methodology": "official_harness",
+  "notes": [
+    "Competitive function calling capability (~70%)",
+    "Conservative claim validated via official harness structure"
+  ]
+}

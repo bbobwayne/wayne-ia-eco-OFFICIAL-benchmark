@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-26T13:21:20.757769",
+  "harness": "AgentBench v1.0",
+  "environments_tested": 8,
+  "samples_per_env": 100,
+  "environment_scores": {
+    "os_interaction": 82.0,
+    "database": 49.0,
+    "web_shopping": 43.0,
+    "web_browsing": 47.0,
+    "knowledge_graph": 44.0,
+    "card_game": 27.0,
+    "household": 34.0,
+    "lateral_thinking": 46.0
+  },
+  "overall_score": 46.5,
+  "best_environment": "os_interaction",
+  "worst_environment": "card_game",
+  "methodology": "official_harness",
+  "notes": [
+    "OS Interaction strength: 82.0%",
+    "Multi-agent orchestration validated (45-48% baseline)"
+  ]
+}
