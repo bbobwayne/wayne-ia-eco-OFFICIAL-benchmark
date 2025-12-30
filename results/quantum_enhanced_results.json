@@ -1,0 +1,67 @@
+{
+  "bfcl_baseline": {
+    "categories": {
+      "simple": 75.0,
+      "parallel": 70.0,
+      "multiple": 66.0
+    },
+    "overall": 70.33
+  },
+  "swebench_baseline": {
+    "samples": 300,
+    "passed": 121,
+    "score": 40.33
+  },
+  "agentbench_baseline": {
+    "environments": {
+      "os_interaction": 84.0,
+      "database": 42.0,
+      "web_shopping": 53.0,
+      "web_browsing": 38.0,
+      "knowledge_graph": 47.0,
+      "card_game": 32.0,
+      "household": 35.0,
+      "lateral_thinking": 45.0
+    },
+    "overall": 47.0
+  },
+  "bfcl_quantum": {
+    "categories": {
+      "simple": 89.0,
+      "parallel": 88.0,
+      "multiple": 100.0
+    },
+    "overall": 92.33,
+    "quantum_stats": {
+      "classical": 0,
+      "quantum_after": 0,
+      "quantum_first": 0,
+      "full_quantum": 0
+    }
+  },
+  "swebench_quantum": {
+    "samples": 300,
+    "passed": 146,
+    "score": 48.67,
+    "quantum_first_tasks": 124,
+    "composition": "PPWHH[162-165] * FRACTAL[166-172] * [119] * [115] * QUANTUM"
+  },
+  "agentbench_quantum": {
+    "environments": {
+      "os_interaction": 82.0,
+      "database": 48.0,
+      "web_shopping": 50.0,
+      "web_browsing": 50.0,
+      "knowledge_graph": 54.0,
+      "card_game": 32.0,
+      "household": 40.0,
+      "lateral_thinking": 54.0
+    },
+    "overall": 51.25,
+    "quantum_enhanced_envs": [
+      "web_browsing",
+      "knowledge_graph",
+      "card_game"
+    ]
+  }
+}

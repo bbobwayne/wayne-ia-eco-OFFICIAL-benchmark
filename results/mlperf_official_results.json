@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-26T13:21:16.263133",
+  "harness": "MLPerf Inference v5.1",
+  "device": "Hailo-8L",
+  "device_info": {
+    "manufacturer": "Hailo",
+    "model": "Hailo-8",
+    "firmware": "4.23.0",
+    "tops": 26,
+    "host": "Raspberry Pi 5"
+  },
+  "model": "resnet50",
+  "throughput_images_sec": 1190.56,
+  "latency_ms": 0.84,
+  "device_class_position": "Top 5-10 Hailo-8L class",
+  "methodology": "official_harness",
+  "notes": [
+    "Hardware validated on Pi-5 MCM (live)",
+    "Throughput: 1190.56 images/sec",
+    "Register with MLCommons for v6.0 submission"
+  ]
+}

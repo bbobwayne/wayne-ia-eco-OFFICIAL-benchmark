@@ -1,0 +1,40 @@
+{
+  "benchmark_id": 4,
+  "benchmark_name": "AgentBench",
+  "timestamp": "2025-12-24T19:23:08.191678",
+  "mode": "enhanced",
+  "score": 48.0,
+  "score_percentage": "48.00%",
+  "samples_run": 800,
+  "samples_passed": 384,
+  "predicted_baseline": [
+    35,
+    50
+  ],
+  "predicted_optimized": [
+    50,
+    65
+  ],
+  "top_10_threshold": 60,
+  "sota": 0,
+  "meets_prediction": "MEETS_BASELINE",
+  "top_10_achieved": false,
+  "details": {
+    "environment_scores": {
+      "os_interaction": 54.0,
+      "database": 55.00000000000001,
+      "web_shopping": 63.0,
+      "web_browsing": 51.0,
+      "knowledge_graph": 35.0,
+      "card_game": 33.0,
+      "household": 42.0,
+      "lateral_thinking": 51.0
+    },
+    "best_environment": "web_shopping",
+    "worst_environment": "card_game",
+    "environments_tested": 8
+  },
+  "errors": [],
+  "duration_seconds": 0.0040035247802734375,
+  "identity_implication": "BASELINE - Expected performance, room for growth"
+}

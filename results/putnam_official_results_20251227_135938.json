@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-12-27T13:59:38.703413",
+  "benchmark": "PutnamBench",
+  "total_problems": 150,
+  "problems_solved": 5,
+  "success_rate": 3.33,
+  "avg_score": 2.76,
+  "avg_improvement": 1.17,
+  "quantum_utilization": 100.0,
+  "total_reflexion_iterations": 428,
+  "total_lats_nodes": 4036,
+  "category_scores": {
+    "analysis": {
+      "total": 44,
+      "solved": 2,
+      "rate": 4.55,
+      "avg_score": 3.74
+    },
+    "algebra": {
+      "total": 34,
+      "solved": 2,
+      "rate": 5.88,
+      "avg_score": 2.3
+    },
+    "geometry": {
+      "total": 15,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 3.11
+    },
+    "abstract_algebra": {
+      "total": 9,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 2.63
+    },
+    "number_theory": {
+      "total": 29,
+      "solved": 1,
+      "rate": 3.45,
+      "avg_score": 2.01
+    },
+    "probability": {
+      "total": 6,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 2.56
+    },
+    "linear_algebra": {
+      "total": 9,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 1.83
+    },
+    "combinatorics": {
+      "total": 4,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 2.77
+    }
+  },
+  "b1_fix_effectiveness": 0.0,
+  "b2_fix_effectiveness": 0.0,
+  "reasoning_framework": {
+    "agents_loaded": 5,
+    "strategies_used": [
+      "REFLEXION",
+      "LATS",
+      "HYBRID",
+      "ULTRATHINK"
+    ]
+  },
+  "code_key_fixes": {
+    "B1_COMB": "[32]P[33]",
+    "B2_GEOM": "[99]"
+  }
+}

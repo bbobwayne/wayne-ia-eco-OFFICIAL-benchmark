@@ -1,0 +1,28 @@
+{
+  "bfcl_baseline": {
+    "categories": {
+      "simple": 75.0,
+      "parallel": 70.0,
+      "multiple": 66.0
+    },
+    "overall": 70.33
+  },
+  "swebench_baseline": {
+    "samples": 300,
+    "passed": 121,
+    "score": 40.33
+  },
+  "agentbench_baseline": {
+    "environments": {
+      "os_interaction": 84.0,
+      "database": 42.0,
+      "web_shopping": 53.0,
+      "web_browsing": 38.0,
+      "knowledge_graph": 47.0,
+      "card_game": 32.0,
+      "household": 35.0,
+      "lateral_thinking": 45.0
+    },
+    "overall": 47.0
+  }
+}

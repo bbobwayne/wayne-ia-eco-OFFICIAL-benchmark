@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-12-27T14:00:04.652182",
+  "benchmark": "PutnamBench",
+  "total_problems": 22,
+  "problems_solved": 0,
+  "success_rate": 0.0,
+  "avg_score": 3.59,
+  "avg_improvement": 2.03,
+  "quantum_utilization": 100.0,
+  "total_reflexion_iterations": 80,
+  "total_lats_nodes": 1198,
+  "category_scores": {
+    "combinatorics": {
+      "total": 22,
+      "solved": 0,
+      "rate": 0.0,
+      "avg_score": 3.59
+    }
+  },
+  "b1_fix_effectiveness": 0.0,
+  "b2_fix_effectiveness": 0.0,
+  "reasoning_framework": {
+    "agents_loaded": 5,
+    "strategies_used": [
+      "REFLEXION",
+      "LATS",
+      "HYBRID",
+      "ULTRATHINK"
+    ]
+  },
+  "code_key_fixes": {
+    "B1_COMB": "[32]P[33]",
+    "B2_GEOM": "[99]"
+  }
+}

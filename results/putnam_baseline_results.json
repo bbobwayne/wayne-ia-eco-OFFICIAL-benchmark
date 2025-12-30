@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-27T11:36:39.830916",
+  "benchmark": "PutnamBench",
+  "assessment_type": "baseline",
+  "reference_baseline": {
+    "model": "GPT-4o",
+    "result": "1 problem per language with 10 attempts",
+    "source": "arxiv:2407.11214"
+  },
+  "wayneia_assessment": {
+    "lean4": {
+      "sample_size": 50,
+      "solved": 1,
+      "rate": 2.0
+    },
+    "isabelle": {
+      "sample_size": 50,
+      "solved": 0,
+      "rate": 0.0
+    },
+    "coq": {
+      "sample_size": 50,
+      "solved": 0,
+      "rate": 0.0
+    }
+  },
+  "statistics": {
+    "total": 673,
+    "by_category": {
+      "geometry": 74,
+      "analysis": 232,
+      "algebra": 255,
+      "combinatorics": 36,
+      "set_theory": 8,
+      "number_theory": 115,
+      "linear_algebra": 54,
+      "probability": 14,
+      "abstract_algebra": 28
+    },
+    "by_year_range": {
+      "1962-1969": 90,
+      "1970-1979": 101,
+      "1980-1989": 98,
+      "1990-1999": 104,
+      "2000-2009": 103,
+      "2010-2019": 111,
+      "2020-2025": 66
+    },
+    "by_language": {
+      "lean4": 672,
+      "isabelle": 640,
+      "coq": 412
+    }
+  },
+  "overall_solve_rate": 0.67
+}

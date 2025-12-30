@@ -1,0 +1,32 @@
+{
+  "benchmark_id": 2,
+  "benchmark_name": "MLPerf Edge",
+  "timestamp": "2025-12-24T19:23:08.115886",
+  "mode": "enhanced",
+  "score": 1199.0777855247277,
+  "score_percentage": "1199.08%",
+  "samples_run": 10000,
+  "samples_passed": 10000,
+  "predicted_baseline": [
+    0,
+    0
+  ],
+  "predicted_optimized": [
+    0,
+    0
+  ],
+  "top_10_threshold": 0,
+  "sota": 0,
+  "meets_prediction": "EXCEEDS_OPTIMIZED",
+  "top_10_achieved": true,
+  "details": {
+    "hailo_device": "Executing on device: 0001:01:00.0\nIdentifying board\nControl Protocol Version: 2\nFirmware Version: 4.23.0 (release,app,extended context switch buffer)\nLogger Version: 0\nBoard Name: Hailo-8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\nDevice Architecture: HAILO8\n\n",
+    "tops_capability": 26,
+    "throughput_images_sec": 1199.0777855247277,
+    "model": "resnet50",
+    "device_class_position": "Top 5 estimated"
+  },
+  "errors": [],
+  "duration_seconds": 0.06937527656555176,
+  "identity_implication": "CORE_STRENGTH - Feature in WayneIA identity"
+}
